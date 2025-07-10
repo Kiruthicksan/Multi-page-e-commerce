@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import heroBanner from "../../assets/heroBanner.png";
+import "../Home/Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="home">
+      <div className="hero-section">
+        <img src={heroBanner} alt="" />
+        <div className="hero-content">
+          <h2>Unleash Perfomance - Order Your PS5 Now</h2>
+          <Link to = "/login"className="hero-ctn">Shop Now</Link>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Home
+export default Home;

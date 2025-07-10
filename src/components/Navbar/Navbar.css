@@ -1,0 +1,75 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.left-side .brand {
+  font-size: 1.5rem;
+  color: #111;
+  text-shadow: 0 0 4px rgba(0, 255, 255, 0.4);
+  text-decoration: none;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: "Orbitron";
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.center .nav-links {
+  font-weight: 600;
+  font-family: "poppins";
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  padding-bottom: 2px;
+}
+
+.nav-links:hover {
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right-side input {
+  padding: 6px 15px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.right-side .login {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 6px 10px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login:hover {
+  background-color: #999;
+ 
+}
