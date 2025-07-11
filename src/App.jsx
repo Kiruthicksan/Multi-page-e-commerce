@@ -12,7 +12,7 @@ function App() {
  
   return (
     <div>
-      <BrowserRouter >
+      <BrowserRouter basename="/Multi-page-e-commerce">
           <Navbar/>
           <Routes>
               <Route path = "/" element = {<Home />}></Route>
