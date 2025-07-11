@@ -55,3 +55,34 @@
     color: #666;
     font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .product-details-container {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+  }
+
+  .product-image-section {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-image-section img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .product-info-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .price {
+    text-align: center;
+  }
+
+  .description,
+  .category {
+    text-align: center;
+  }
+}

@@ -53,7 +53,7 @@ const Products = () => {
       <div className="product-grid">
           {products.map((product) => (
             <div className="product-card" key={product.id}>
-              <img src= {product.image} alt= {product.title} className='product-img'/>
+              <img src= {product.image} alt= {product.title} className='product-img'  loading="lazy"/>
               <h3>{product.title}</h3>
               <p>₹ {product.price}</p>
               <Link className='btn' to= {`/products/${product.id}`}>View Product</Link>

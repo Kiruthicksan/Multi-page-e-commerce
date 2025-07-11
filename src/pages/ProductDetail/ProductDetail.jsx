@@ -43,7 +43,7 @@ const ProductDetail = () => {
   return (
     <div className="product-details-container">
       <div className="product-image-section">
-        <img src={product.image} alt={product.title} />
+        <img src={product.image} alt={product.title}  loading="lazy"/>
       </div>
 
       <div className="product-info-section">
